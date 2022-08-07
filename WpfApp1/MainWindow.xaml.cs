@@ -102,7 +102,7 @@ namespace WpfApp1
             InitializeComponent();
             caretaker.Save(coordinate.BackUp());
         }
-
+        
 
 
         private void Button_Click(object sender, RoutedEventArgs e)
