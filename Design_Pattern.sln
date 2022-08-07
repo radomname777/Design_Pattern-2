@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design_Pattern", "Design_Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2FC4C2-8579-4F45-BE1B-8FB7B5D631E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
