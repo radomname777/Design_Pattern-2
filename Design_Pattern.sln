@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design_Pattern", "Design_Pattern\Design_Pattern.csproj", "{CACDFE87-0E76-4110-AF6B-B39CF0DD057E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Design_Pattern", "Design_Pattern\Design_Pattern.csproj", "{CACDFE87-0E76-4110-AF6B-B39CF0DD057E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CACDFE87-0E76-4110-AF6B-B39CF0DD057E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CACDFE87-0E76-4110-AF6B-B39CF0DD057E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CACDFE87-0E76-4110-AF6B-B39CF0DD057E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D340E7D8-6DAB-439D-9351-D7FFB7D9658D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
