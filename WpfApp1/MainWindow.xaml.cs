@@ -77,8 +77,13 @@ namespace WpfApp1
         public CoordinateCaretaker()
             => _memento = new();
 
-        public CoordinateMemento Undo()
-            => _memento.Pop();
+        public CoordinateMemento Undo(Thickness th)
+        {
+            if (_memento.Count!=0)
+                return _memento.Pop();
+            return new CoordinateMemento(th);
+
+        }
 
 
         public void Save(CoordinateMemento memento)
@@ -109,13 +114,17 @@ namespace WpfApp1
                     case "Left_btn" :
                         borders.Margin = coordinate.Increment();
                         break;
-                    case "Rigth_btn":
+                    case "Right_btn":
                         borders.Margin = coordinate.decrement();
                         break;
                     case "Ref":
-                        borders.Margin = coordinate.Setup(caretaker.Undo());
+                        borders.Margin = coordinate.Setup(caretaker.Undo(borders.Margin));
+                        break;
+                    case "Save_btn":
+                        caretaker.Save(coordinate.BackUp());
                         break;
                     default:
+                        MessageBox.Show("A");
                         break;
                 }
             }
